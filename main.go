@@ -11,7 +11,7 @@ func main() {
 	e := echo.New()
 	e.GET("/", func(c echo.Context) error {
 		return c.JSON(http.StatusOK, map[string]interface{}{
-			"message": "TESTING BISA!",
+			"message": "SURYA GANTENG!",
 		})
 	})
 
